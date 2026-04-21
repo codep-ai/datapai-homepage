@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<%- include('_header') %>
+
+<body>
+<header>
+    <%- include('_menu') %>
+</header>
+
+<!-- ─── HERO ─────────────────────────────────────────────────────────── -->
+<div class="hero-section text-center">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7 text-section animate-on-scroll">
+                <div>
+                    <h2 class="intro-header__title">AI Governance — Built In, Not Bolted On</h2>
+                </div>
+                <div>
+                    <p class="lead-lg intro-header__lead text-black-60">
+                        The governance-native AI platform for regulated industries.
+                        Every LLM call and every multi-agent pipeline is gated against APRA,
+                        ASIC, OAIC, ISO 42001 and OWASP Agentic Top 10 — and audited in real time.
+                        Ship AI to production without getting blocked at procurement DD.
+                    </p>
+                </div>
+                <a class="btn btn-primary btn-lg pulse-on-hover" href="/contact" style="margin-top: 25px;">Request a pilot</a>
+                <a class="btn btn-primary btn-lg" href="https://platform.datap.ai" style="margin-top: 25px; margin-left: 10px;">See it live</a>
+            </div>
+            <div class="col-lg-5 image-section animate-on-scroll" style="padding-left: 40px;">
+                <img src="../images/artificial-intelligence.png" alt="AI Governance" class="img-fluid" style="max-width: 300px;">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ─── THREE-PILLAR SOLUTION ────────────────────────────────────────── -->
+<div class="section">
+    <div class="container">
+        <h2 class="pb-2 border-bottom text-center animate-on-scroll">The Solution — Three Pillars</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+            <div class="feature col animate-on-scroll" style="margin-top: 30px;">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <img class="bi" src="../images/software.png" alt="AI Chatbot" height="150" width="150">
+                </div>
+                <h4 class="fs-2 text-body-emphasis">1 · AI Chatbot</h4>
+                <p class="card-text">
+                    Deploy any LLM behind your firewall or ours. Multi-provider routing
+                    (OpenAI, Claude, Gemini, Fireworks, Ollama) via a single SDK.
+                    Every turn is gated before it reaches the model.
+                </p>
+            </div>
+
+            <div class="feature col animate-on-scroll delay-1" style="margin-top: 30px;">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <img class="bi" src="../images/checklist.png" alt="Governance Engine" height="150" width="150">
+                </div>
+                <h4 class="fs-2 text-body-emphasis">2 · AI Governance Engine</h4>
+                <p class="card-text">
+                    Multi-agent-native Gate → Main → Validator pipeline.
+                    Policy-as-data — 213 controls across 16 regulatory &amp; industry frameworks,
+                    SCD2-versioned, auto-refreshed weekly.
+                    Refusals cite named regulators inline.
+                </p>
+            </div>
+
+            <div class="feature col animate-on-scroll delay-2" style="margin-top: 30px;">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <img class="bi" src="../images/artificial-intelligence.png" alt="Governance Dashboard" height="150" width="150">
+                </div>
+                <h4 class="fs-2 text-body-emphasis">3 · Governance Dashboard</h4>
+                <p class="card-text">
+                    CCO, CISO, and auditor view — compliance rates, rule firings, block history,
+                    agent-level drill-down. Powered by Lightdash on live
+                    per-turn audit evidence (Postgres &#43; S3 Iceberg archive).
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ─── CORE DIFFERENTIATORS ─────────────────────────────────────────── -->
+<div class="section" style="background-color: #f8f9fa;">
+    <div class="container">
+        <h2 class="pb-2 border-bottom text-center animate-on-scroll">What's Special About Us</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-md-2">
+
+            <div class="feature col animate-on-scroll" style="margin-top: 20px;">
+                <h4 class="fs-3 text-body-emphasis">🛡 Cited refusals, live</h4>
+                <p class="card-text">
+                    <em>"Based on APRA CPS 230 and OAIC APP.11…"</em> appears inline in the chat UI
+                    the second a user steps outside policy. Demonstrable in 30 seconds —
+                    not a slide, not a promise.
+                </p>
+            </div>
+
+            <div class="feature col animate-on-scroll delay-1" style="margin-top: 20px;">
+                <h4 class="fs-3 text-body-emphasis">📚 Policy-as-data</h4>
+                <p class="card-text">
+                    213 controls across 16 frameworks in a versioned catalogue.
+                    "What was our APRA posture on 2026-02-15?" is a query, not a forensics project.
+                </p>
+            </div>
+
+            <div class="feature col animate-on-scroll delay-2" style="margin-top: 20px;">
+                <h4 class="fs-3 text-body-emphasis">🔄 Weekly regulator auto-refresh</h4>
+                <p class="card-text">
+                    When APRA, ASIC, or OAIC publishes new guidance, our TinyFish web-AI
+                    captures it, diffs against the current catalogue, and proposes the update
+                    as a reviewable change. You're always on the latest regulatory state.
+                </p>
+            </div>
+
+            <div class="feature col animate-on-scroll delay-3" style="margin-top: 20px;">
+                <h4 class="fs-3 text-body-emphasis">📝 Per-turn audit evidence</h4>
+                <p class="card-text">
+                    Every gate decision written once to Postgres with framework citations,
+                    archived to S3 Iceberg for immutable auditor-ready evidence.
+                    Point-in-time reconstruction via SCD2 — ISO 27001 and 42001 aligned.
+                </p>
+            </div>
+
+            <div class="feature col animate-on-scroll" style="margin-top: 20px;">
+                <h4 class="fs-3 text-body-emphasis">🤝 Multi-agent-native</h4>
+                <p class="card-text">
+                    AG2-compatible Gate → Main → Validator pattern governs solo LLM calls
+                    <strong>and</strong> multi-agent pipelines.
+                    OWASP ASI07 (inter-agent comms), ASI08 (cascading failures) and
+                    ASI10 (rogue agents) enforced deterministically.
+                </p>
+            </div>
+
+            <div class="feature col animate-on-scroll delay-1" style="margin-top: 20px;">
+                <h4 class="fs-3 text-body-emphasis">🔌 Scheduler &amp; warehouse agnostic</h4>
+                <p class="card-text">
+                    Runs on Airflow, Control-M, or cron. Reads/writes to
+                    Postgres, Snowflake, BigQuery, Redshift, or DuckDB.
+                    Meets you where you are — that's not marketing; it's dbt abstraction.
+                </p>
+            </div>
+
+            <div class="feature col animate-on-scroll delay-2" style="margin-top: 20px;">
+                <h4 class="fs-3 text-body-emphasis">📦 Bundled, not bolted</h4>
+                <p class="card-text">
+                    Governance ships in the same platform-be deployment as the AI chatbot —
+                    one docker-compose, one contract, one invoice. No separate "GRC module"
+                    to license and integrate.
+                </p>
+            </div>
+
+            <div class="feature col animate-on-scroll delay-3" style="margin-top: 20px;">
+                <h4 class="fs-3 text-body-emphasis">🔐 ISO 42001 in-house expertise</h4>
+                <p class="card-text">
+                    Our Compliance Officer holds ISO/IEC 42001 qualification.
+                    Customer DDs answered in-house; no third-party consultant spend for
+                    audit prep, gap assessments, or evidence generation.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ─── FRAMEWORKS COVERED ───────────────────────────────────────────── -->
+<div class="section">
+    <div class="container">
+        <h2 class="pb-2 border-bottom text-center animate-on-scroll">Frameworks Covered</h2>
+        <p class="text-center text-muted" style="margin-top: 20px;">
+            16 regulatory &amp; industry frameworks, 213 controls — updated weekly.
+        </p>
+        <div class="row text-center" style="margin-top: 40px;">
+            <div class="col-md-3 animate-on-scroll">
+                <h5 class="text-body-emphasis">🇦🇺 AU Regulators</h5>
+                <p>APRA CPS 230<br>ASIC REP 798 + s912A<br>OAIC Privacy APPs<br>AU 6 Principles<br>NSW AIAF<br>TGA SaMD</p>
+            </div>
+            <div class="col-md-3 animate-on-scroll delay-1">
+                <h5 class="text-body-emphasis">🌏 International</h5>
+                <p>NIST AI RMF 1.0<br>ISO 42001:2023<br>UK 5 Principles (DSIT)<br>FCA DP5/22<br>EU AI Act</p>
+            </div>
+            <div class="col-md-3 animate-on-scroll delay-2">
+                <h5 class="text-body-emphasis">🇺🇸 US Sector</h5>
+                <p>FINRA Notice 24-09<br>Colorado SB24-205<br>NY DFS AI Guidance</p>
+            </div>
+            <div class="col-md-3 animate-on-scroll delay-3">
+                <h5 class="text-body-emphasis">🛡 Industry</h5>
+                <p>OWASP Agentic Top 10<br>OWASP LLM Top 10<br>NIST SP 800-53</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ─── WHO IT'S FOR ─────────────────────────────────────────────────── -->
+<div class="section" style="background-color: #f8f9fa;">
+    <div class="container">
+        <h2 class="pb-2 border-bottom text-center animate-on-scroll">Who It's For</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col animate-on-scroll">
+                <h4 class="fs-3 text-body-emphasis">🏦 Financial Services</h4>
+                <p class="card-text">
+                    Banks, insurers, super funds, asset managers, advisers.
+                    APRA CPS 230, ASIC REP 798, AFSL obligations, prudential AI risk.
+                </p>
+            </div>
+            <div class="feature col animate-on-scroll delay-1">
+                <h4 class="fs-3 text-body-emphasis">🏥 Healthcare</h4>
+                <p class="card-text">
+                    Clinics, hospitals, digital health. TGA SaMD compliance,
+                    OAIC health records, AU 6 AI Principles for clinical decision support.
+                </p>
+            </div>
+            <div class="feature col animate-on-scroll delay-2">
+                <h4 class="fs-3 text-body-emphasis">🏛 Government</h4>
+                <p class="card-text">
+                    Federal, state, local. NSW AIAF, QLD AI Governance, AU 6 Principles
+                    for government use of AI, contestability &amp; public accountability.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ─── CTA ──────────────────────────────────────────────────────────── -->
+<div class="section text-center" style="padding: 80px 0;">
+    <div class="container">
+        <h2 class="animate-on-scroll">Ready to see it live?</h2>
+        <p class="lead text-muted animate-on-scroll" style="margin-top: 20px;">
+            90-second demo. Live chatbot citing APRA, ASIC, OAIC in your own test session.
+            No slideware.
+        </p>
+        <a class="btn btn-primary btn-lg pulse-on-hover" href="/contact" style="margin-top: 25px;">Request a pilot</a>
+        <a class="btn btn-outline-primary btn-lg" href="/demo" style="margin-top: 25px; margin-left: 10px;">Watch the demo</a>
+    </div>
+</div>
+
+<%- include('_footer') %>
+
+</body>
+</html>

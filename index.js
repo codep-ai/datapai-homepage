@@ -119,6 +119,10 @@ app.get('/genai', (req, res) => {
   res.render('genai')
 });
 
+app.get('/ai-governance', (req, res) => {
+  res.render('ai-governance')
+});
+
 app.get('/services', (req, res) => {
   res.render('services')
 });
